@@ -14,8 +14,6 @@ jobs:
         - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744  # actions/checkout@v3
         - name: Set up Python
           uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c  # actions/setup-python@v4
-          with:
-            python-version: "3.12.x"
         - name: Full Deploy Commands
           run: |
             python3 -m venv venv
@@ -38,8 +36,6 @@ jobs:
         - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744  # actions/checkout@v3
         - name: Set up Python
           uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c  # actions/setup-python@v4
-          with:
-            python-version: "3.12.x"
         - name: Full Deploy Commands
           run: |
             python3 -m venv venv
@@ -62,8 +58,6 @@ jobs:
         - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744  # actions/checkout@v3
         - name: Set up Python
           uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c  # actions/setup-python@v4
-          with:
-            python-version: "3.12.x"
         - name: Full Deploy Commands
           run: |
             python3 -m venv venv
@@ -86,8 +80,6 @@ jobs:
         - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744  # actions/checkout@v3
         - name: Set up Python
           uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c  # actions/setup-python@v4
-          with:
-            python-version: "3.12.x"
         - name: Full Deploy Commands
           run: |
             python -m venv venv
@@ -110,8 +102,6 @@ jobs:
         - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744  # actions/checkout@v3
         - name: Set up Python
           uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c  # actions/setup-python@v4
-          with:
-            python-version: "3.12.x"
         - name: Full Deploy Commands
           run: |
             python -m venv venv
